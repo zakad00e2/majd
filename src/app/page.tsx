@@ -101,7 +101,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/3] overflow-hidden bg-charcoal-deep">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=85"
+                  src="/Gemini_Generated_Image_31g9fs31g9fs31g9.png"
                   alt="مشروع مميز - MAS Group"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
