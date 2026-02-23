@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: #B8B0A3;
+    background: #0B0A0A;
+    font-family: var(--font-ibm-plex-arabic), sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070504;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(212, 173, 95, 0.3);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 173, 95, 0.5);
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(212, 173, 95, 0.25);
+    color: #D4AD5F;
+  }
+}
+
+@layer components {
+  /* Blueprint grid background overlay */
+  .blueprint-bg {
+    background-image:
+      linear-gradient(rgba(212, 173, 95, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(212, 173, 95, 0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Gold divider line */
+  .gold-divider {
+    height: 1px;
+    background: linear-gradient(
+      to left,
+      transparent,
+      rgba(212, 173, 95, 0.3),
+      transparent
+    );
+  }
+
+  /* Blueprint frame - thin gold border with corner accents */
+  .blueprint-frame {
+    border: 1px solid rgba(212, 173, 95, 0.15);
+    position: relative;
+  }
+
+  .blueprint-frame::before,
+  .blueprint-frame::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-color: rgba(212, 173, 95, 0.4);
+    border-style: solid;
+  }
+  .blueprint-frame::before {
+    top: -1px;
+    right: -1px;
+    border-width: 1px 1px 0 0;
+  }
+  .blueprint-frame::after {
+    bottom: -1px;
+    left: -1px;
+    border-width: 0 0 1px 1px;
+  }
+
+  /* Section container */
+  .section-container {
+    @apply mx-auto max-w-7xl px-6 md:px-8 lg:px-12;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

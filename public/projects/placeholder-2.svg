@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect fill="#0E0D0C" width="800" height="600"/>
+  <rect fill="none" stroke="#D4AD5F" stroke-opacity="0.12" x="30" y="30" width="740" height="540" stroke-width="0.5"/>
+  <line x1="60" y1="200" x2="740" y2="200" stroke="#D4AD5F" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="60" y1="400" x2="740" y2="400" stroke="#D4AD5F" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="267" y1="50" x2="267" y2="550" stroke="#D4AD5F" stroke-opacity="0.05" stroke-width="0.5"/>
+  <line x1="533" y1="50" x2="533" y2="550" stroke="#D4AD5F" stroke-opacity="0.05" stroke-width="0.5"/>
+  <text x="400" y="280" text-anchor="middle" fill="#D4AD5F" fill-opacity="0.3" font-family="sans-serif" font-size="24">MAS GROUP</text>
+  <text x="400" y="320" text-anchor="middle" fill="#D4AD5F" fill-opacity="0.15" font-family="sans-serif" font-size="14">صورة المشروع ٢</text>
+</svg>
