@@ -50,7 +50,7 @@ export default function HomePage() {
               <h1 className="font-heading text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
                 د.م. مجد مصطفى
                 <br />
-                <span className="text-gold">العويني</span>
+                <span className="text-gold">العـــــــــــــــــــــــــــــــــــــــــــــويـــنـــــــــــي</span>
               </h1>
             </FadeUp>
 
@@ -101,7 +101,7 @@ export default function HomePage() {
               <div className="relative aspect-[4/3] overflow-hidden bg-charcoal-deep">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="/Gemini_Generated_Image_31g9fs31g9fs31g9.png"
+                  src="/logohero.jpg"
                   alt="مشروع مميز - MAS Group"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
